@@ -1,3 +1,36 @@
-body{
-  background-color:tomato;
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	height: 50px;
+	width: 25%;
+}
+.pink {
+	background-color:pink;
+}
+.skyblue {
+	background-color: skyblue;
+}
+.yellow {
+	background-color:yellow;}
+.maroon {
+background-color:olivedrab;}
+
+@media (max-width: 600px) {
+	.skyblue, .yellow {
+		display: none;
+	}
+}
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}
+
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(158, 138, 140);
 }
